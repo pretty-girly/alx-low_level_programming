@@ -1,10 +1,12 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
+/* more headers goes there */
+/* betty style doc for function main goes there */
 /**
- *  main - Prints a random number
- *  Return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,12 +16,9 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 		printf("%d is positive\n", n);
-	else if (n == 0)
-	{
+	if (n == 0)
 		printf("%d is zero\n", n);
-	}
-	else
-	{
+	if (n < 0)
 		printf("%d is negative\n", n);
 	return (0);
-	}
+}
