@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - prints some letters of alphabet
+ *  main - Prints some letters of alphabet
  *
- * Return:Always(Success)
+ *   Return: Always (Success)
  */
 int main(void)
 {
-/* This is where our code starts */
-	char ca;
+	char c;
 
-	for (ca = 'a'; ca <= 'z'; ca++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (ca != 'e' && ca != 'q')
-			putchar(ca);
+		putchar(c);
 	}
-putchar('\n')
+}
+putchar('\n');
 
-return (O);
+return (0);
 }
