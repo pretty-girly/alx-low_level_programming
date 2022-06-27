@@ -57,7 +57,7 @@ int count_words(char *str)
  * Return: If str = NULL, str = "", or the function fails - NULL
  * Otherwise - a pointer to an array of strings (words)
  */
-har **strtow(char *str)
+char **strtow(char *str)
 {
 	char **strings;
 	int index = 0, words, w, letters, l;
